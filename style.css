@@ -1,0 +1,104 @@
+#topofPage {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  padding: 15px;
+}
+
+nav a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+nav a:hover {
+    background-color: whitesmoke;
+    color: rgb(218, 18, 18);
+}
+
+#imgcontainer {
+  position: relative;
+}
+
+#photodeprofil {
+  position: absolute;
+  top: 20px;
+  right: 150px;
+  width: 15%;
+
+}
+
+#paragraph {
+  width: 50%;
+  text-align:center;
+  font-size: 25px;
+  position: relative;
+  left: -250px;
+
+}
+
+#text {
+  display: inline;
+  position: relative;
+  left: 500px;
+}
+
+#description{
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  left: -700px;
+
+}
+#name{
+  position: relative;
+  left: 40px;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  left: 680px;
+  top: 50px;
+
+
+}
+#button:hover {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  left: 680px;
+  top: 50px;
+  
+}
